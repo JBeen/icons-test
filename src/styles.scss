@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 30px;
+}
+
+* {
+  font-family: Montserrat, serif !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+.mat-icon {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Montserrat Medium'),
+  url('./montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-500.woff2') format('woff2'),
+  url('./montserrat-v25-latin-ext_latin_cyrillic-ext_cyrillic-500.woff') format('woff');
+}

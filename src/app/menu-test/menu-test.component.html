@@ -1,0 +1,29 @@
+<div class="main">
+  <button mat-raised-button [matMenuTriggerFor]="menu1">Menu 1px</button>
+  <mat-menu #menu1="matMenu" hasBackdrop="false">
+    <button mat-menu-item *ngFor="let icon of icons">
+      <mat-icon [svgIcon]="icon.icon + '1'"></mat-icon>{{ icon.title }}
+    </button>
+  </mat-menu>
+
+  <button mat-raised-button [matMenuTriggerFor]="menu15">Menu 1.5px</button>
+  <mat-menu #menu15="matMenu" hasBackdrop="false">
+    <button mat-menu-item *ngFor="let icon of icons">
+      <mat-icon [svgIcon]="icon.icon + '15'"></mat-icon>{{ icon.title }}
+    </button>
+  </mat-menu>
+
+  <button mat-raised-button [matMenuTriggerFor]="menu2">Menu 2px</button>
+  <mat-menu #menu2="matMenu" hasBackdrop="false">
+    <button mat-menu-item *ngFor="let icon of icons">
+      <mat-icon [svgIcon]="icon.icon + '2'"></mat-icon>{{ icon.title }}
+    </button>
+  </mat-menu>
+
+  <button mat-raised-button [matMenuTriggerFor]="menu3">Menu 300</button>
+  <mat-menu #menu3="matMenu" hasBackdrop="false">
+    <button mat-menu-item *ngFor="let icon of icons">
+      <mat-icon [svgIcon]="icon.icon + '3'"></mat-icon>{{ icon.title }}
+    </button>
+  </mat-menu>
+</div>
