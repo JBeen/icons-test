@@ -26,4 +26,25 @@
       <mat-icon [svgIcon]="icon.icon + '3'"></mat-icon>{{ icon.title }}
     </button>
   </mat-menu>
+
+  <button mat-raised-button [matMenuTriggerFor]="menu13">Menu 1.33px</button>
+  <mat-menu #menu13="matMenu" hasBackdrop="false">
+    <button mat-menu-item *ngFor="let icon of icons">
+      <mat-icon [svgIcon]="icon.icon + '13'"></mat-icon>{{ icon.title }}
+    </button>
+  </mat-menu>
+
+  <button mat-raised-button [matMenuTriggerFor]="menu16">Menu 1.67px</button>
+  <mat-menu #menu16="matMenu" hasBackdrop="false">
+    <button mat-menu-item *ngFor="let icon of icons">
+      <mat-icon [svgIcon]="icon.icon + '16'"></mat-icon>{{ icon.title }}
+    </button>
+  </mat-menu>
+
+  <button mat-raised-button [matMenuTriggerFor]="menuf">Menu filled</button>
+  <mat-menu #menuf="matMenu" hasBackdrop="false">
+    <button mat-menu-item *ngFor="let icon of icons">
+      <mat-icon [svgIcon]="icon.icon + 'f'"></mat-icon>{{ icon.title }}
+    </button>
+  </mat-menu>
 </div>

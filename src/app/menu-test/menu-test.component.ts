@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ICONS, TYPES} from "../consts";
 
 @Component({
   selector: 'app-menu-test',
@@ -6,15 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu-test.component.scss']
 })
 export class MenuTestComponent implements OnInit {
-
-  icons = [
-    {icon: 'star', title: 'Add to favorites'},
-    {icon: 'plus', title: 'Add new folder'},
-    {icon: 'copy', title: 'Copy'},
-    {icon: 'pen', title: 'Rename'},
-    {icon: 'delete', title: 'Delete'},
-  ];
-  types = ['1', '15', '2', '3'];
+  public icons = ICONS;
+  public types = TYPES;
 
   constructor() { }
 
