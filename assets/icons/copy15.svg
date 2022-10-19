@@ -1,4 +1,7 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5.99805 8.99902H0.998047V1.99902H3.99805L5.99805 3.99902H9.99805V7.99902" stroke="#0D2E4E" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M14.998 13.999H5.99805V6.99902H8.99805L10.998 8.99902H14.998V13.999Z" stroke="#0D2E4E" stroke-width="1.5" stroke-miterlimit="10"/>
+<mask id="path-1-inside-1_9665_385407" fill="white">
+<rect x="4" y="1" width="9" height="12" rx="1"/>
+</mask>
+<rect x="4" y="1" width="9" height="12" rx="1" stroke="#0D2E4E" stroke-width="3" mask="url(#path-1-inside-1_9665_385407)"/>
+<path d="M9 14C9 14.5523 8.60825 15 8.125 15H2.875C2.39175 15 2 14.5523 2 14V6C2 5.44772 2.39175 5 2.875 5" stroke="#0D2E4E" stroke-width="1.5"/>
 </svg>
